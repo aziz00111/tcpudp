@@ -1,0 +1,13 @@
+TCP
+
+TCPServer.java :
+
+Crée un ServerSocket pour écouter sur le port 12345.
+Accepte les connexions entrantes et crée un socket pour chaque client.
+Lit les chaînes de caractères envoyées par le client, les inverse et les renvoie.
+
+TCPClient.java :
+
+Crée un Socket pour se connecter au serveur sur le port 12345.
+Envoie des chaînes de caractères saisies par l'utilisateur au serveur.
+Reçoit et affiche la réponse du serveur.

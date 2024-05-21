@@ -1,0 +1,13 @@
+UDP
+
+UDPServer.java :
+
+Crée un DatagramSocket pour écouter sur le port 9876.
+Reçoit des paquets de données et les affiche.
+Transforme les données en majuscules et les renvoie au client.
+
+UDPClient.java :
+
+Crée un DatagramSocket pour envoyer et recevoir des paquets.
+Envoie une chaîne de caractères au serveur.
+Reçoit et affiche la réponse du serveur.
